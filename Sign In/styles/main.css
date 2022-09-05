@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Chillax";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Chillax"), url("https://fonts.cdnfonts.com/s/85273/Chillax-Semibold.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 644px;
+  height: 712px;
+  left: calc(50% - 322px);
+  top: 57px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  border: 1px solid #5B4DFF;
+}
+.container .title {
+  text-align: center;
+}
+.container .title h1 {
+  font-family: "Chillax", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 70px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+.container .title .coloredtext {
+  color: #FF6363;
+}
+.container .name .input__name {
+  width: 464px;
+  height: 71px;
+  background: #E9EEF8;
+  border-radius: 14px;
+  border: none;
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #939393;
+  padding: 24px;
+}
+.container .name h3 {
+  font-family: Plus Jakarta Display;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  margin: 14px 0 14px 0;
+  color: #000000;
+}
+.container .pswd .input__pswd {
+  width: 464px;
+  height: 71px;
+  background: #E9EEF8;
+  border-radius: 14px;
+  border: none;
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #939393;
+  padding: 24px;
+}
+.container .pswd h3 {
+  font-family: Plus Jakarta Display;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  margin: 14px 0 14px 0;
+  color: #000000;
+}
+.container .rptPswd .input__rptPswd {
+  width: 464px;
+  height: 71px;
+  background: #E9EEF8;
+  border-radius: 14px;
+  border: none;
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #939393;
+  padding: 24px;
+}
+.container .rptPswd h3 {
+  font-family: Plus Jakarta Display;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  margin: 14px 0 14px 0;
+  color: #000000;
+}
+.container .button__section {
+  display: flex;
+  justify-content: space-between;
+  width: 381px;
+  height: 54px;
+  margin: auto;
+  margin-top: 50px;
+}
+.container .button__section .signIn {
+  width: 165px;
+  height: 54px;
+  border: 2px solid white;
+  background: #5B4DFF;
+  border-radius: 44px;
+  margin: auto;
+}
+.container .button__section .signIn a {
+  text-decoration: none;
+  color: #5B4DFF;
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+}
+.container .additional {
+  display: flex;
+  justify-content: space-between;
+  width: 247px;
+  height: 22px;
+  margin: auto;
+  align-items: center;
+  margin-top: 50px;
+}
+.container .additional p {
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+.container .additional a {
+  font-family: "Plus Jakarta Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  color: #5B4DFF;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Chillax';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Chillax'), url('https://fonts.cdnfonts.com/s/85273/Chillax-Semibold.woff') format('woff');
+}
+@import url(//db.onlinewebfonts.com/c/eb5b5ee332420add9a40ee988cb6ac37?family=Mazzard+H);
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 644px;
+    height: 861px;
+    left: calc(50% - 644px/2);
+    top: 57px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    border: 1px solid #5B4DFF;
+        .title {
+            text-align: center;
+            h1 {
+                font-family: 'Chillax', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 70px;
+                text-transform: capitalize;
+                
+            }
+            .coloredtext {
+                color: #FF6363;
+            }
+        }
+        .youtubeLink {
+            .input__youtubeLink {
+                width: 464px;
+                height: 71px;
+                background: #E9EEF8;
+                border-radius: 14px;
+                border: none;
+                font-family: 'Plus Jakarta Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #939393;
+                padding: 24px;
+            }
+            h3 {
+                font-family: Plus Jakarta Display;
+                font-size: 25px;
+                font-weight: 700;
+                letter-spacing: 0em;
+                margin: 14px 0 14px 0;
+                color: #000000;
+            }
+        }
+        .nameOfVideo {
+            .input__nameOfVideo {
+                width: 464px;
+                height: 71px;
+                background: #E9EEF8;
+                border-radius: 14px;
+                border: none;
+                font-family: 'Plus Jakarta Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #939393;
+                padding: 24px;
+            }
+            h3 {
+                font-family: Plus Jakarta Display;
+                font-size: 25px;
+                font-weight: 700;
+                letter-spacing: 0em;
+                margin: 14px 0 14px 0;
+                color: #000000;
+            }
+        }
+        .description {
+            .input__description {
+                width: 464px;
+                height: 134px;
+                background: #E9EEF8;
+                border-radius: 14px;
+                border: none;
+                font-family: 'Plus Jakarta Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #939393;
+                padding: 24px;
+            }
+            h3 {
+                font-family: Plus Jakarta Display;
+                font-size: 25px;
+                font-weight: 700;
+                letter-spacing: 0em;
+                margin: 14px 0 14px 0;
+                color: #000000;
+            }
+        }
+        .button__section {
+            display: flex;
+            justify-content: space-between;
+            width: 381px;
+            height: 54px;
+            margin: auto;
+            margin-top: 50px;
+            .cancel {
+                width: 165px;
+                height: 54px;
+                border: 2px solid #5B4DFF;
+                background-color: white;
+                border-radius: 44px;
+                a {
+                    text-decoration: none;
+                    color: #5B4DFF;
+                    font-family: 'Plus Jakarta Display';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+            }
+            .submit {
+                width: 165px;
+                height: 54px;
+                border: 2px solid #5B4DFF;
+                background-color: #5B4DFF;
+                border-radius: 44px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: 'Plus Jakarta Display';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+            }
+        }
+    }
+    
